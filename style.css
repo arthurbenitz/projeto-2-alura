@@ -1,0 +1,46 @@
+body {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: "arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    -webkit-text-stroke: 80px rgba(rgb(255, 0, 0));
+    text-shadow: #fafafa 0px 0px 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+button {
+    background-color: #ffffffee;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: #ffffff 0px 0px 20px;
+    -webkit-text-stroke: 1px rgba(white);
+    
+
+
+
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+    
+
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
